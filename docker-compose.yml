@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  mysql:
+    image: mariadb
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+  wordpress:
+    image: wordpress
+    depends_on:
+      - mysql
+    volumes:
+      - ./wp-content/:/var/www/html/wp-content
+    ports:
+      - 4000:80
+    environment:
+      WORDPRESS_DB_PASSWORD: admin
+  
