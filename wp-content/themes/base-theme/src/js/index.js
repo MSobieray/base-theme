@@ -4,7 +4,7 @@ import '../css/styles.css'
 new Vue({
 	el: "#vue",
 	data: {
-		message: 'Hello World'
+		message: 'Hello'
 	}
 })
 
@@ -14,7 +14,7 @@ new Vue({
 
     // element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
-    btn.innerHTML = 'Click me and check the console!';
+    btn.innerHTML = 'Click Me And Check The Console!';
     btn.onclick = Test;
  
     element.appendChild(btn);
