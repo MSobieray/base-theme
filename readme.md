@@ -1,8 +1,8 @@
-#TFG Base Dev WP Enviroment
+# TFG Base Dev WP Enviroment
 
-##To-do
+## To-do
 
-###Webpack configs
+### Webpack configs
 
 - [ ] Add Vue Loader
 - [ ] Add Bable or Buble
@@ -10,11 +10,11 @@
 - [ ] Enviroment Variables
 - [ ] eslint friendly
 
-###Tests
+### Tests
 
 - [ ] Add eslint
 
-###Wordpress
+### Wordpress
 
 - [ ] Add Functions
 - [ ] Add Enqueue
