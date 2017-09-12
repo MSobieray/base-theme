@@ -14,9 +14,9 @@ new Vue({
 
     // element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
-    btn.innerHTML = 'Click Me And Check The Console!';
+    btn.innerHTML = 'Click n Check The Console!';
     btn.onclick = Test;
- 
+
     element.appendChild(btn);
 
     return element;
